@@ -5,8 +5,8 @@ programa {
     inteiro ano
     inteiro ano1
     inteiro ano2
-    caracter nome1
-    caracter nome2
+    cadeia nome1
+    cadeia nome2
     
 
     escreva("Escreva seu nome: ")
@@ -26,11 +26,11 @@ programa {
     idd2 = ano-ano2
 
     se(idd1 > idd2){
-      escreva(nome2, "É mais novo que", nome1)
+      escreva(nome2, " É mais novo que ", nome1)
     }
 
     senao se (idd2 > idd1) {
-      escreva(nome1, "É mais novo que", nome2)
+      escreva(nome1, " É mais novo que ", nome2)
     }
 
     senao {

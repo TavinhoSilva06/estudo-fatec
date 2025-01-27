@@ -1,3 +1,4 @@
+
 programa {
   funcao inicio() {
     inteiro n1
@@ -16,7 +17,7 @@ programa {
     }
 
     senao {
-      escreva("Divisão não exata")
+      escreva("Divisão não exata ", R)
     }
   }
 }
