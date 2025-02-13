@@ -3,7 +3,6 @@ programa
   funcao inicio()
   {
     inteiro Limite
-    inteiro soma
     inteiro i
     inteiro j
     inteiro k
@@ -14,16 +13,14 @@ programa
     escreva("Digite o segundo limite: ")
     leia(j)
 
-    soma = 0
+    Limite = 0
     para(k = i; k <= j; k++)
     {
       se (k % 2 == 0)
       {
-        soma = soma + k
+        Limite = Limite + k
       }
     }
-
-    Limite = soma
     
     escreva("A soma dos pares no intervalo é: ", Limite)
   }

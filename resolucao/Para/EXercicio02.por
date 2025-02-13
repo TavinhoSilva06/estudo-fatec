@@ -4,16 +4,18 @@ programa {
     inteiro MM
     inteiro M
     inteiro MN
+    inteiro media
 
     para(i=1; i<= 50; i++){      
-      escreva("Digite a sua maior nota: ")
+      escreva("\n Digite a sua maior nota: ")
       leia(MM)
 
-      escreva("Digite a sua menor nota: ")
+      escreva("\n Digite a sua menor nota: ")
       leia(MN)
 
-      M = MM * MN / 2
-      escreva(M)
+      M = MM + MN
+      media = M / 2
+      escreva(media)
     }
   }
 }
