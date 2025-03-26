@@ -1,0 +1,31 @@
+Computação Espacial
+fonte: https://www.iberdrola.com/inovacao/computacao-espacial
+
+A computação espacial ou spatial computing são termos semelhantes que se usam para se referir à conexão dos computadores com o mundo físico. Desde sua origem, a interação com as máquinas tem se concentrado principalmente em entender como um sistema se comporta para dar instruções que ele possa interpretar. A computação espacial busca mudar o paradigma para que as máquinas sejam capazes de entender a linguagem, o movimento humano, as expressões e outros aspectos para interpretar o mundo real.
+
+Em vez de usar dispositivos convencionais, como teclados ou telas sensíveis ao toque, essa forma de computação utiliza gestos, movimentos e comandos de voz como entradas para interagir com sistemas digitais. Seu foco está no reconhecimento e no processamento de informações do ambiente tridimensional, como posição, orientação e iluminação, o que permite gerar resultados adaptados ao contexto, como imagens e sons.
+
+Origem do conceito de Computação Espacial
+
+Esse conceito de computação espacial ou spatial computing foi identificado pela primeira vez em 2003 por Simon Greenwold, ex-aluno do MIT Media Lab (EUA). Na época, ele parecia distante e futurista, mas hoje muitas de suas ideias foram concretizadas graças a avanços como a inteligência artificial (IA), sensores de câmera e visão computacional para rastrear ambientes, pessoas e objetos, a Internet das Coisas (IoT) para monitorar e controlar produtos e a realidade aumentada (RA) para fornecer interfaces de usuário humano.
+
+Como funciona a computação espacial?
+
+Sensores e captura de dados: a computação espacial se baseia na coleta de dados de um ambiente usando vários sensores, como câmeras, sensores de movimento, acelerômetros, giroscópios e outros dispositivos que capturam informações sobre posição, orientação, movimento e outros aspectos do espaço tridimensional. Também foram observados desenvolvimentos em sensores cerebrais para o gerenciamento de interações.
+
+Processamento de dados: os dados capturados por esses sensores são processados por algoritmos avançados de inteligência artificial (IA). Esses algoritmos interpretam as informações, identificam padrões e geram representações digitais de um ambiente em tempo real.
+ 
+Realidade aumentada (RA): outro elemento usado com frequência pela computação espacial é a realidade aumentada, que permite que as informações digitais sejam sobrepostas ao mundo real. Isso é realizado por meio da projeção de imagens, dados ou gráficos gerados por computador na visão física do usuário, melhorando assim a compreensão e a interação com o ambiente.
+ 
+Mapeamento espacial: a criação de um modelo tridimensional do ambiente, conhecido como mapeamento espacial, é essencial na computação espacial. Esse modelo permite que os sistemas entendam o layout dos objetos e sua relação com o espaço ao redor.
+ 
+Interação natural: a computação espacial prioriza interações naturais, como gestos, movimentos corporais e comandos de voz, em vez de dispositivos de entrada tradicionais, como teclados ou mouses. Isso melhora a experiência do usuário, tornando a interação mais intuitiva e adaptada ao comportamento humano. 
+
+Internet das Coisas (IoT): a integração com a Internet das Coisas permite a comunicação entre objetos físicos e sistemas de computador. Os dispositivos conectados coletam dados do ambiente e se comunicam entre si para criar uma rede inteligente que otimiza várias funções.
+ 
+Automação: em alguns casos, a computação espacial usa a automação para executar ações específicas sem intervenção humana. Isso é feito por meio da interpretação de dados e da tomada de decisões em tempo real para ajustar as configurações ou corrigir problemas de maneira automática.
+
+
+Diferenças entre computação espacial e realidade virtual ou realidade aumentada
+
+A computação espacial, a realidade virtual (RV) e a realidade aumentada (RA) são conceitos relacionados, mas distintos, principalmente em termos da interação humano-computador. Enquanto a computação espacial usa gestos, movimentos e comandos de voz como entradas para sistemas de computador, priorizando a interação natural, na realidade virtual a interação ocorre principalmente no ambiente virtual e os usuários ficam imersos nesse mundo digital que simula a realidade. No caso da realidade aumentada, a interação ocorre de fato no mundo real e as informações digitais são responsáveis por complementar ou aprimorar essa realidade física.    

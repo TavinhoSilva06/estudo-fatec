@@ -1,0 +1,22 @@
+package exerciciosjava;
+
+import java.util.Scanner;
+
+public class exercicio05 {
+
+	public static void main(String[] args) {
+		int n;
+		
+		Scanner scanner;
+		scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o número 0: ");
+		n = scanner.nextInt();
+		
+		for (n = 0; n <= 9; n++)
+		
+		System.out.println(n+1);
+		
+	}
+
+}

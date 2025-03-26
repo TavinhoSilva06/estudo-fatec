@@ -8,7 +8,7 @@ programa
 
         para (i = 0; i < 2; i++)
         {
-            para (j = 0; j < 5; j++)
+            para ( j < 5j = 0;; j++)
             {
                 escreva("Digite o elemento da matriz[", i, "][", j, "]: ")
                 leia(matriz[i][j])

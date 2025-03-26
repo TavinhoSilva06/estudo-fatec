@@ -5,6 +5,7 @@ programa
     {
         inteiro numero 
         inteiro primos = 0
+        inteiro i
 
         primos = 0
 
@@ -34,7 +35,7 @@ programa
             escreva("Valor inválido")
         }
 
-        para (inteiro i = 2; i <= mat.raiz(n); i++)
+        para (i = 2; i <= mat.raiz(n); i++)
         {
             se (n % i == 0)
             {
