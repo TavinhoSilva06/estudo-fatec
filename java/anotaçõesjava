@@ -1,0 +1,75 @@
+Método com e sem void
+
+Método com void: 
+
+public static void dizerOi() {
+    System.out.println("Oi!");
+}
+
+Método sem void: 
+
+public static String pegarSaudacao() {
+    return "Oi!";
+}
+
+System.out.println(pegarSaudacao());
+// ------------------- //
+
+Instâncias e Objetos
+
+Classe: É como uma "forma" ou "modelo" que define os atributos e 
+comportamentos de um tipo de dado (como "Pessoa", "Carro", etc.).
+
+Objeto: É uma instância de uma classe, ou seja, uma cópia específica desse modelo em memória.
+
+Criar um objeto significa que você está usando a classe para produzir algo concreto com seus próprios valores.
+
+
+Definir a classe "Pessoa": 
+
+public class Pessoa {
+    // Atributos da classe
+    String nome;
+    int idade;
+
+    // Método para exibir informações
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade + " anos");
+    }
+}
+
+Criar Objetos(Instâncias da Classe) exemplo: 
+
+nome do método: main 
+nome da classe: Pessoa
+
+package exerciciosjava;
+
+public class Pessoa {
+
+    private String nome;
+    private int idade;
+    
+    // Criando o método para reconhecer na impressão, as variáveis dos objetos ( no caso: pessoa1 e pessoa2 ) da classe (no caso: Pessoa) 
+    public String toString() {
+        return "Nome: " + nome + ", Idade: " + idade + " anos";
+    }
+
+    public static void main(String[] args) {
+        
+        // Criando o Primeiro objeto
+        Pessoa pessoa1 = new Pessoa();
+        pessoa1.nome = "Otávio";
+        pessoa1.idade = 25;
+
+        // Criando o segundo objeto
+        Pessoa pessoa2 = new Pessoa();
+        pessoa2.nome = "Mariana";
+        pessoa2.idade = 30;
+
+        System.out.println("Informações da Pessoa 1: " + pessoa1);
+
+        System.out.println("\nInformações da Pessoa 2: " + pessoa2);
+    } 
+}
