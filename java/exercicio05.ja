@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class exercicio05 {
 
 	public static void main(String[] args) {
-		int n;
+		int numero;
 		
 		Scanner scanner;
 		scanner = new Scanner(System.in);
 		
-		System.out.println("Digite o número 0: ");
-		n = scanner.nextInt();
+		System.out.println("Digite um número: ");
+		numero = scanner.nextInt();
 		
-		for (n = 0; n <= 9; n++)
+		for (int iterator = 0; iterator <= numero; iterator++) {
 		
-		System.out.println(n+1);
-		
+		System.out.println(iterator);
+		}
 	}
 
 }
