@@ -19,11 +19,11 @@ programa {
       escreva("O ", nome, " é solteiro")
       pare
 
-      caso 2:
+      caso 3:
       escreva("O ", nome, " é divorciado")
       pare
 
-      caso 3:
+      caso 4:
       escreva("O ", nome, " é viúvo")
       pare
 
