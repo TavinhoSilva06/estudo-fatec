@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/exe04.1" isTestSource="false" packagePrefix="exe04_1" />
+      <sourceFolder url="file://$MODULE_DIR$/exe07.ignore" isTestSource="false" packagePrefix="javaoo.exe07.ignore" />
+      <sourceFolder url="file://$MODULE_DIR$/exe08.ignore" isTestSource="false" packagePrefix="exe08_ignore" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
