@@ -1,0 +1,36 @@
+O que é cast?
+
+Em Java, cast (ou casting) é o processo de converter um valor de um tipo para 
+outro. Isso pode acontecer com tipos primitivos (como int, double, float) ou com 
+objetos em hierarquias de classes.
+
+
+Tipos de Casting
+
+- Casting Implícito (Widening)
+ 
+ Ocorre automaticamente quando você converte de um tipo menor para um tipo maior.
+Exemplo: 
+
+int numero = 10;
+double valor = numero; // int para double
+
+
+- Casting Explícito (Narrowing)
+
+ Precisa ser feito manualmente, geralmente quando você converte de um tipo maior para um menor.
+Exemplo:
+
+
+double valor = 9.75;
+int numero = (int) valor; // perde a parte decimal
+
+
+Casting entre Objetos
+Em hierarquias de classes, você pode fazer upcasting (de subclasse para superclasse) 
+automaticamente, mas o downcasting (de superclasse para subclasse) exige casting explícito:
+
+Animal animal = new Cachorro(); // upcasting
+Cachorro dog = (Cachorro) animal; // downcasting
+
+⚠️ Se o objeto não for realmente da subclasse, o downcasting pode gerar ClassCastException.
