@@ -1,0 +1,105 @@
+new File
+
+- Cria uma representação abstrata de um arquivo ou diretório no sistema de arquivos.
+- Não abre nem lê/escreve no arquivo — ele apenas aponta para o caminho.
+- Usado para verificar se o arquivo existe, obter seu nome, caminho absoluto, tamanho, entre outros.
+
+- Exemplo:
+
+File arquivo = new File("exemplo.txt");
+if (arquivo.exists()) {
+System.out.println("O arquivo existe!");
+}
+
+new FileWriter
+
+- Cria um fluxo de saída para gravar dados em um arquivo.
+- Pode criar o arquivo se ele não existir, ou sobrescrevê-lo (a menos que seja usado no modo de append).
+- Funciona em conjunto com BufferedWriter para escrita mais eficiente.
+
+- Exemplo:
+
+FileWriter escritor = new FileWriter("exemplo.txt");
+escritor.write("Hello, world!");
+escritor.close();
+
+✍️ Exemplo: Escrevendo em um arquivo com segurança
+import java.io.File;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
+import java.io.IOException;
+
+public class EscritaArquivo {
+public static void main(String[] args) {
+try {
+// Representa o caminho do arquivo
+File arquivo = new File("saida.txt");
+
+            // Cria o FileWriter (modo append = true para não sobrescrever)
+            FileWriter fw = new FileWriter(arquivo, true);
+
+            // Usa BufferedWriter para escrita mais eficiente
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            // Escreve no arquivo
+            bw.write("Escrevendo com FileWriter e BufferedWriter!");
+            bw.newLine(); // Adiciona uma nova linha
+
+            // Fecha os fluxos
+            bw.close();
+            fw.close();
+
+            System.out.println("Arquivo escrito com sucesso!");
+
+        } catch (IOException e) {
+            System.out.println("Ocorreu um erro ao escrever no arquivo:");
+            e.printStackTrace();
+        }
+    }
+
+}
+
+Exemplo: Escrevendo um arquivo com segurança
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
+import java.io.IOException;
+
+public class EscritaArquivo {
+public static void main(String[] args) {
+try {
+// Representa o caminho do arquivo
+File arquivo = new File("saida.txt");
+
+            // Cria o FileWriter (modo append = true para não sobrescrever)
+            FileWriter fw = new FileWriter(arquivo, true);
+
+            // Usa BufferedWriter para escrita mais eficiente
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            // Escreve no arquivo
+            bw.write("Escrevendo com FileWriter e BufferedWriter!");
+            bw.newLine(); // Adiciona uma nova linha
+
+            // Fecha os fluxos
+            bw.close();
+            fw.close();
+
+            System.out.println("Arquivo escrito com sucesso!");
+
+        } catch (IOException e) {
+            System.out.println("Ocorreu um erro ao escrever no arquivo:");
+            e.printStackTrace();
+        }
+    }
+
+}
+
+🔎 O que está acontecendo aqui?
+
+- File serve para definir onde será gravado.
+- FileWriter cria o canal de escrita para esse arquivo.
+- BufferedWriter dá um boost na performance.
+- O modo append = true evita que o conteúdo anterior seja apagado.
+- try-catch garante que erros sejam tratados com graça (e sem crashar seu programa).
